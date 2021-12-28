@@ -3,7 +3,10 @@ package com.example.aplicativodesorteio;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,11 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void jogar() {
+    public void jogar(View view) {
         TextView textResultado;
 
         textResultado = findViewById(R.id.textResultado);
 
+        int numero = new Random().nextInt();
 
+        textResultado.setText("Número sorteado: " + numero);
     }
 }
