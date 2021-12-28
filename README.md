@@ -28,7 +28,7 @@ Ideal por cima do projeto.
 <!--ts-->
    * Criar uma view simples
    * Posicionar 1x Button
-   * Posicionar 2 Text
+   * Posicionar 2x Text
    * E cria a lógica
 <!--te-->
 
